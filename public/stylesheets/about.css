@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+body {
+  background-color: #98c318;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+#buttons > a {
+  width: 10vw;
+  font-size: 5vh;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+#buttons {
+  height: 10vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+#nav-bar {
+  background-color: #039d3d;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+#nav-logo {
+  display: flex;
+  height: 10vh;
+}
+
+#brazil-flag {
+  height: 16px;
+  width: 16px;
+}
+
+#psg-logo {
+  height: 16px;
+  width: 16px;
+}
+
+#neymar {
+  display: flex;
+  height: 45vh;
+  padding-right: 15px;
+}
+
+#text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  border: 2px solid black;
+  background-color: rgba(237, 210, 8, 0.671);
+}
